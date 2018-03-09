@@ -1,3 +1,4 @@
 window.addEventListener("keyup", function(e){
-  console.log(e.which);
+  let keyCode = e.keyCode;
+  
 });
