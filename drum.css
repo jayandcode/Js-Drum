@@ -38,7 +38,7 @@ body {
   border: 3px solid #282828;
   width: 70px;
   height: 70px;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 .key.active {
   border-color: #d35400;
