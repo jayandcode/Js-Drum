@@ -13,6 +13,8 @@ html {
 body {
   margin: 0px;
   padding: 0px;
+  display: flex;
+  align-items: center;
   background-image: url(drum.jpg);
   background-size:  cover;
   background-repeat: no-repeat;
@@ -23,7 +25,7 @@ body {
 .keys {
   width: 90%;
   max-width: 900px;
-  margin: 10em auto 0px auto;
+  margin: auto;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(6,1fr);
