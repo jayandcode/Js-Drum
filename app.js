@@ -5,17 +5,11 @@ window.addEventListener("keyup", function(e){
     return;
   }
   else {
-    resetStyle();
     audio.currentTime = 0;
     key.classList.add("active");
+    setTimeout(function(){
+      key.classList.remove("active");
+    },1000);
     audio.play();
   }
-
 });
-
-function resetStyle(){
-  const allKeys = document.querySelectorAll(".key");
-  allKeys.forEach(function(key){
-  key.classList.remove("active");
-  });
-}

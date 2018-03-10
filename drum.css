@@ -53,3 +53,9 @@ body {
   font-size: 12px;
   text-transform: capitalize;
 }
+@media(max-width: 570px){
+  .keys {
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+  }
+}
